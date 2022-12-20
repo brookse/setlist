@@ -1,0 +1,128 @@
+/* Header/title */
+.header-left { 
+  display: flex;
+}
+
+.logo-icon {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.reorder-toggle {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  --background-checked: var(--ion-color-primary-shade) !important;
+}
+
+.title {
+  width: 50%;
+}
+
+.title-content {
+  display: flex;
+  align-items: center;
+}
+
+/* Body */
+ion-fab-list ion-fab-button{
+  --background: gray;
+  --border-radius: 8px;
+  width: 56px;
+}
+
+.group-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  --background: var(--ion-background-color);
+}
+
+.play-button {
+  --background: #19647e;
+  color: white;
+}
+
+/* Active setlist */
+.active-setlist {
+  height: 100%;
+  position: absolute;
+  z-index: 999;
+  background: black;
+  width: 100%;
+}
+.active-setlist ion-card {
+  height: -webkit-fill-available;
+}
+
+.active-setlist ion-card-subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note-content {
+  font-family: monospace;
+  font-size: 20px;
+  color: white;
+  overflow-y: scroll;
+
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 108px);
+}
+
+.wrap-text { 
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  height: -webkit-fill-available;
+  color: var(--ion-color-light-contrast);
+}
+
+.setlist-nav-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.setlist-nav-buttons ion-button {
+  width: 47%;
+  height: 60px;
+  --background: transparent;
+  color: var(--ion-color-primary);
+  --box-shadow: none;
+}
+
+.setlist-nav-buttons ion-button.hidden {
+  visibility: hidden;
+}
+
+.setlist-nav-buttons ion-button ion-icon {
+  font-size: 42px;
+}
+
+/* App settings */
+.app-settings {
+  margin-top: 50px;
+}
+
+.setting-option {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+
+.settings-header {
+  margin: 10px 20px 0px;
+}
+
+.font-size {
+  display: flex;
+  align-items: center;
+}
+
+.font-button {
+  --background: clear;
+  --box-shadow: none;
+  --color: var(--ion-color-primary);
+}
