@@ -1,0 +1,6 @@
+{
+	"appId": "com.lyzzibrooks.setlist",
+	"appName": "setlist",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
