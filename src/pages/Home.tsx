@@ -1,6 +1,6 @@
 import { Storage } from '@ionic/storage';
 import { useEffect, useState } from 'react';
-import { Row, getSeedRows } from '../data/seedRows';
+import { Row } from '../data/seedRows';
 import {
   IonContent,
   IonButton,
@@ -248,7 +248,7 @@ const Home: React.FC = () => {
           <div className='header-left'>
             <IonTitle className="title">
               <div className='title-content'>
-                <IonImg className='logo-icon' src='assets/icon-logo.png'></IonImg>
+                <IonImg className='logo-icon' alt='logo' src='assets/icon-logo.png'></IonImg>
                 Setlist
               </div>
             </IonTitle>
@@ -264,7 +264,7 @@ const Home: React.FC = () => {
         <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle size="large">
-              <img src='/assets/icon-logo.png'></img>
+              <IonImg className='logo-icon' alt='logo' src='assets/icon-logo.png'></IonImg>
               Setlist
             </IonTitle>
             <div className='reorder-toggle'>

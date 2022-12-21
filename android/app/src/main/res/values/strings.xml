@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">setlist</string>
+    <string name="title_activity_main">setlist</string>
+    <string name="package_name">com.lyzzibrooks.setlist</string>
+    <string name="custom_url_scheme">com.lyzzibrooks.setlist</string>
+</resources>
